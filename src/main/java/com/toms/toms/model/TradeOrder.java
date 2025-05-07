@@ -16,7 +16,7 @@ import java.time.LocalDateTime;
 public class TradeOrder {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long identity;
+    private Long id;
 
     private String symbol;
 
